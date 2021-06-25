@@ -1,6 +1,8 @@
 *{
     margin: 0;
+    padding: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
@@ -47,13 +49,20 @@
     transform: translateY(4px);
 }
 
+.main_page_container{
+display: flex;
+padding: 20px;
+justify-content: center;
+}
 
-
-.container{
+.profile_card{
+    margin-top: 50px;
+    margin-right: 0;
     border: 2px solid;
     border-color: gray;
     width: 700px;
     height: 400px;
+    font-family: "Robot" , sans-serif;
 }
 
 .topbox{
@@ -99,3 +108,25 @@
     display: inline-block;
 }
 
+.conection_request_container{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    border: 2px solid;
+    border-color: gray;
+    font-family: "Robot" , sans-serif;
+}
+
+.topsidebar{
+    height: 100px;
+    width: inherit;
+    background-color: turquoise;
+}
+.conection_request_container > h1{
+    font-size: 20px;
+    justify-content: center;
+    background-position-y: inherit;
+}
