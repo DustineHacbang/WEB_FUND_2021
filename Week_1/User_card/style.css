@@ -1,20 +1,23 @@
+*{
+    margin: 0;
+}
+
 .container{
     border: 2px solid;
     border-color: gray;
-    width: 965px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
 }
 
 .topbox{
     background-color: turquoise;
-    height: 110px;
-    inherits: width;
+    height: 100px;
     padding: 20px;
 }
 
 .topbox > img {
     display: flex;
-    margin-top: 80px;
+    margin-top: 70px;
     height: 100px;
     width: 100px;
 }
@@ -27,8 +30,17 @@
 }
 
 .info > h1{
-    margin-top: 50px;
+    margin-top: 60px;
 }
+
+.info > .skills1{
+    margin-top: 10px;
+}
+
+.info > .skills2{
+    margin-bottom: 10px;
+}
+
 
 .link >img,
 .info > img{
@@ -40,6 +52,3 @@
     display: inline-block;
 }
 
-link{
-    align-content: center;
-}
