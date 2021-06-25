@@ -1,4 +1,4 @@
-console.log(hello JS file connected)
+console.log("hello JS file connected")
 
 // Even Driven -Input Driven
 
