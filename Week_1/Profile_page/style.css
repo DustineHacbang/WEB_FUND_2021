@@ -111,8 +111,6 @@ justify-content: center;
 .conection_request_container{
     margin-top: 50px;
     margin-left: 20px;
-    display: flex;
-    justify-content: center;
     height: 300px;
     width: 400px;
     border: 2px solid;
@@ -121,12 +119,57 @@ justify-content: center;
 }
 
 .topsidebar{
-    height: 100px;
-    width: inherit;
+    display: flex;
+    height: 80px;
     background-color: turquoise;
 }
-.conection_request_container > h1{
+
+.topsidebar > h1{
+    margin-left: 100px;
+    align-self: center;
     font-size: 20px;
-    justify-content: center;
-    background-position-y: inherit;
+    font-family: inherit;
+    
+}
+
+.bottomsidebar{
+    width: inherit;
+    height: 120px;
+}
+
+.philK,
+.todd{
+    margin-left: 40px;
+    align-items: center ;
+}
+
+.philK >*,
+.todd > *{
+    margin-top: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.philK > .philPic,
+.todd > .toddPic{
+    height: 60px;
+    margin-left: 20px;    
+    margin-right: 20px;  
+}
+
+.philK > h2,
+.todd > h2{
+    margin-right: 50px;
+}
+
+
+.declineIcon,
+.acceptIcon{
+    width: 35px;
+    height: 35px;
+}
+
+.h2Text{
+    width: 100px;
 }
