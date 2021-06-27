@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#topColunm{
+    display: flex;
+    justify-content: center;
+}
+
+
+#navBar{
+    display: flex;
+    height: 80px;
+    width: 1000px;
+    padding-top:30px ;
+    background-color: orange;
+    justify-content: space-evenly;
+}
+
+#navBarContent > *{
+    margin-top: 5px;
+    height: 30px;
+}
+
+#login,
+#searchBar{
+    border: 3px solid black;
+}
+
+
+#searchBar{
+    width: 400px;
+    margin-right: 120px;
+}
+
+#login{
+    width: 80px;
+    box-shadow: 5px 5px black;
+}
+
+#login:active{
+    transform: translateY(4px)
+}
+
+#mainPage{
+    display: flex;
+    justify-content: center;
+}
+
+#leftColunm{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.nounBox{
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    height: 300px;
+    width: 700px;
+    border: 5px solid orange;
+}
