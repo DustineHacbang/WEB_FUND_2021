@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
-.navbar{
+#navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,23 +17,23 @@
     font-family: "Robot" , sans-serif
 }
 
-.nav-title{
+#navTitle{
     color: black;
     font-family: "Robot" , sans-serif;
 }
 
-.nav-links{
+#navLinks{
     display: flex;
     list-style-type: none;
     align-items: center;
 }
 
-.nav-links > li > a{
+#navLinks > li > a{
     color: blanchedalmond;
     margin: 20px;
 }
 
-.nav-links > li > .active{
+#navLinks > li > .active{
     color: white;
 }
 
@@ -51,7 +51,7 @@
     transform: translateY(4px);
 }
 
-.main_page_container{
+#mainPageContainer{
 display: flex;
 padding-top: 50px;
 justify-content: center;
@@ -64,7 +64,7 @@ justify-content: center;
 /* For my profile card I do understand that in assignment picture 
  everything was on the left hand side,but I just center everything to make it look better it and clean */
 
-.profile_card{
+#profileCard{
     text-align: center;
     margin-top: 50px;
     border: 5px solid;
@@ -74,7 +74,7 @@ justify-content: center;
     font-family: "Robot" , sans-serif;
 }
 
-.topbox{
+#topBox{
     align-items: center;
     background-color: turquoise;
     height: 100px;
@@ -82,45 +82,45 @@ justify-content: center;
     padding-left: 50px;
 }
 
-.topbox > img {
+#topBox > img {
     margin-top: 70px;
     height: 100px;
     width: 100px;
 }
 
 .link,
-.info{
+#info{
     align-items: center;
     margin-left: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.info > h1{
+#info > h1{
     margin-top: 60px;
 }
 
-.info > .skills1{
+#info > #skills1{
     font-size: 20px;
     margin-top: 10px;
 }
 
-.info > .skills2{
+#info > #skills2{
     margin-bottom: 10px;
     font-size: 20px;
 }
 
 
-.link >img,
-.info > img{
+#link >img,
+#info > img{
     height: 20px;
     display: inline-block;
 }
 
-.info > h2 {
+#info > h2 {
     display: inline-block;
 }
 
-.education{
+#education{
     height: 400px;
     width: 700px;
     border: 5px solid;
@@ -157,7 +157,7 @@ justify-content: center;
 
 
 
-.connectionReqContainer{
+#connectionReqContainer{
     margin-top: 50px;
     margin-left: 20px;
     height: 300px;
@@ -167,7 +167,7 @@ justify-content: center;
     font-family: "Robot" , sans-serif;
 }
 
-.topBoxConnectionReq{
+#topBoxConnectionReq{
     height: 70px;
     width: inherit;
     padding-top: 20px;
@@ -180,7 +180,7 @@ justify-content: center;
     text-align: center;
 }
 
-.topBoxConnectionReq > h2{
+#topBoxConnectionReq > h2{
     font-size: 15px;
     width: 20px;
     height: 20px;
@@ -192,7 +192,7 @@ justify-content: center;
     
 }
 
-.bottomsidebar{
+#bottomSidebar{
     width: inherit;
     height: 120px;
 }
