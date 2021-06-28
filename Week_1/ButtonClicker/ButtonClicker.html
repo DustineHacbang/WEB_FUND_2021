@@ -15,7 +15,7 @@
         <h1 id="dojonary">Dojonary</h1>
             <div id="navBarContent">
                 <input id="searchBar" placeholder="Search" type="Search">
-                <button id="login">Login</button>
+                <button onclick="changeText()" id="login">Login</button>
             </div>
     </div>
 
@@ -29,7 +29,7 @@
                 <h1>ninja</h1>
                 <h2>noun</h2>
                 <h2>Plural: ninjas</h2>
-                <button>like</button>
+                <button id="word1" onclick="handlesClick(this)">like</button>
             </div>   
             <div class="nounDef">
                 <p>A practitioner skilled in the</p>
@@ -42,7 +42,7 @@
                 <h1>ninja</h1>
                 <h2>noun</h2>
                 <h2>Plural: ninjas</h2>
-                <button>like</button>
+                <button id="word2" onclick="handlesClick(this)">like</button>
             </div>   
             <div class="nounDef">
                 <p>A <u>programer</u>  who breaks</p>
@@ -58,11 +58,10 @@
             <div id="DefByYouContent">
                 <h2>Dojonary is</h2>
                 <h2>defined by YOU</h2>
-                <button>Add Definition</button>
+                <button onclick="removeElement()">Add Definition</button>
             </div>
         </div>
     </div>
-
 </div>
 <script src="script.js"></script>
 </body>
