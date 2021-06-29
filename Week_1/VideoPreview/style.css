@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+#topColunm{
+    display: flex;
+    justify-content: center; 
+    
+}
+
+#videoLab{
+    font-size: 40px;
+}
+
+#navBar{
+    display: flex;
+    height: 80px;
+    width: 1000px;
+    padding-top:30px ;
+    background-color: dodgerblue;
+    justify-content: space-evenly;
+}
+
+#navBarContent > *{
+    margin-top: 5px;
+    height: 30px;
+}
+
+#login,
+#searchBar{
+    border: 3px solid black;
+}
+
+#searchBar{
+    width: 400px;
+    margin-right: 120px;
+}
+
+#login{
+    width: 80px;
+    box-shadow: 5px 5px black;
+}
+
+#login:active{
+    transform: translateY(4px)
+}
+

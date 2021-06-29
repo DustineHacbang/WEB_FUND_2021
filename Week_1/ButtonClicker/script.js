@@ -16,10 +16,13 @@ function handlesClick2(element){
 
 
 
-function changeText(){
-    var button = document.querySelector("button")
-    button.textContent = "Logout"
+function changeText(element){
+    if(element.innerText == "Login"){
+    element.innerText = "Logout" 
+    } else {element.innerText = "Login"}
 }
+
+
 
 function removeElement(element){
     element.remove()
