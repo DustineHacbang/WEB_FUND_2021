@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainPage{
+    display: flex;
+    justify-content: center;
+}
+
+#userBox{
+    margin-top: 50px;
+}
+
+#userBox{
+    width: 600px;
+    height: 200px;
+    border: 5px solid grey;
+    padding-top: 40px  ;
+}
+
+#userName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#likeBt{
+    height: 30px;
+    width: 80px;
+    box-shadow: 5px 5px dodgerblue;
+}
+
+#userName > h3{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#def{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 25px;
+}
