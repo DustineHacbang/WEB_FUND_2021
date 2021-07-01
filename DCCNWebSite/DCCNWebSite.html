@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DSNN</title>
+
+</head>
+<body>
+
+
+    <div id="topNav">
+            
+        <h2>Live Scores</h2>
+        <div class="matchgroups">
+            <p>SJC Ninjas - 314</p>
+            <p>NS Pirates - 159</p>
+        </div>
+            
+        <div class="matchgroups">
+            <p>CHI Samurai - 0</p>
+            <p>TUL Wizards - 0</p>
+        </div>
+            
+        <div class="matchgroups">
+            <p>BOS Hackers - 13</p>
+            <p>TYO Youkai - 37</p>
+        </div>
+            
+        <div class="matchgroups">
+            <p>BOI Knights - 5</p>
+            <p>SEA Sea Lions - 11</p>
+        </div>
+            
+    </div>
+    
+    <div id="botNavContainer">
+
+        <div id="botNav">
+            
+            <h1 id="dsnnLogo">DSNN</h1>
+            <p>Football</p>
+            <p>Basketball</p>
+            <p>BaseBall</p>
+            <p>Soccer</p>
+            <p>More</p>
+            <img  id="search" src="images/search-light.png" alt="search">
+            <img id="hamburgerLightIcon" src="images/hamburger-light.png" alt="hamburgerLight">
+            <img id="UserIcon" src="images/user-circle-light.png" alt="userCircle">
+            
+        </div>
+        
+    </div>
+
+
+    <div id="mainPage">
+
+        <div id="leftColunm">
+
+            <div id="topStory">
+                <h1 id="topStoriesTitle">Top Stories</h1>
+                <div id="topStoriesText">
+                    <p>Ninjas up big 5th</p>
+                    <p>Best sports cities</p>
+                    <p>Choi joins Hall of Fame</p>
+                    <p>Tournament underway</p>
+                    <p>Samurai at Wizards...</p>
+                </div>
+            </div>
+
+            <div id="signIn">
+
+                <h2>Customize your DSNN</h2>
+                <div id="signButtons">
+                    <button id="signInButton">Sign in</button>
+                    <button id="signUpButton">Sign up</button>
+                </div>
+
+            </div>
+
+            <div id="subscribe">
+                <h2 id="subTitle">Never miss a play</h2>
+                <button onclick="hide(this)" id="subButton">Subscribe</button>
+            </div>
+
+        </div>
+
+        <div id="rightColunm">
+
+            <div id="headerText">
+                <li><span>Live</span> </li>  
+                <h1>Ninjas Leading Pirates</h1>    
+            </div>
+
+            <div id="scoreBoard">
+                
+                <div id="ninjas" >
+                    <img id="ninjasLogo" src="images/sjc-ninjas.png" alt="ninjas">
+                    <h3>San Jose</h3>
+                    <h1>Ninjas</h1>
+                    <p>(10 w - 3 L)</p>
+                    <h1 onclick="handlesClick(this)">314</h1>
+                </div>
+
+                <div id="vs">
+                    <h1>VS</h1>
+                    <div id="vsTimer">
+                        <p>0:13 remaining</p>
+                        <p>5th period</p>
+                    </div>
+                </div>
+
+                <div id="pirates" >
+                    <img id="piratesLogo" src="images/ns-pirates.png" alt="pirates">
+                    <h3>San Jose</h3>
+                    <h1>Pirates</h1>
+                    <p>(12 w - 2 L)</p>
+                    <h1 onclick="handlesClick2(this)">159</h1>
+                </div>
+
+            </div>
+
+            <div id="borderDiv">
+                <div id="bottomText">
+                    <p>Aconservative match between the two top-performing side in the Central</p>
+                    <p>League Division with a number 1 seed at stake... <a href="">get live updates</a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+</html>
