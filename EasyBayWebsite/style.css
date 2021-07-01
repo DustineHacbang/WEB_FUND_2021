@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#message{
+    left: 40%;
+    bottom: 10px;
+    position: absolute;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 600px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    padding-top: 50px;
+}
+
+#alert{
+    height: 45px;
+    margin-right: 10px;
+}
+
+#alertBt{
+    height: 30px;
+    width: 80px;
+    box-shadow: 4px 4px 4px black;
+    background-color: turquoise;
+    color: white;
+    margin-left: 10px;
+}
+
+#botNav,
+#topNav{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#topNav{
+    align-items: center;
+}
+
+#signIn,
+#mainSearchBar,
+#leaf,
+#easyBay{
+    margin-right: 10px;
+}
+
+#leaf{
+    height: 40px;
+    border: 1px solid turquoise;
+    background-color: turquoise;
+    transform: rotate(271deg)rotateY(356deg)rotateX(180deg)rotateZ(180deg)
+}
+
+#easyBay{
+    font-size: 50px;
+}
+
+#searchIcon{
+    height: 20px;
+    position: fixed;
+    right: 35%;
+}
+
+#mainSearchBar{
+    border: 2px solid grey;
+    border-radius: 50px;
+    height: 40px;
+    width: 25%;
+}
+
+#cart{
+    height: 40px;
+}
+
+#botNav {
+    margin-left: 25%;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    border-bottom: 5px solid black;
+    width: 50%;
+}
+
+#bannerTitle{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+    display: flex;
+    justify-content: center;
+}
+
+#discover,
+#leftColunm,
+#mainPageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#mainPageContainer{
+    margin-bottom: 30px;
+}
+
+
+#leftColunmLeftBox{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    width: 290px;
+    height: 340px;
+    background-color: teal;
+}
+
+#leftColunmLeftBox > h2 {
+    color: white;
+    font-size: 40px;
+}
+
+#discover{
+    padding-top: 40px;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+
+#discoverArrow{
+    margin-top: 10px;
+    height: 40px;
+}
+
+#rightColunm{
+    margin-left: 20px;
+}
+
+#rightColunmBotBox{
+    height: 80px;
+    width: 307px;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
+    color: white;
+    background-color: teal;
+
+}
+
+#aloeArrow{
+    margin-top: 5px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+#botContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#bottomColunm{
+    
+    height: 250px;
+    width: 1000px;
+    padding-top:50px;
+    padding-right: 20px;
+    background-color: turquoise;
+    border: 1px solid turquoise;
+}
+
+#botPic{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+#botColText{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#aeoniumText{
+    margin-left: 80px;
+}
+
+#aloeText{
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+#cactusText{
+    margin-left: 50px;
+}
+
+#echeveriaText{
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+#sedumText{
+    margin-right: 15px;
+}
+
+#sempervivumText{
+    margin-right: 40px;
+}
+
+
+
+#Sempervivum,
+#Sedum,
+#Echeveria,
+#Cactus,
+#Aloe,
+#Aeonium{
+    border-radius: 80px;
+    height: 130px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>EasyBay</title>
+        
+</head>
+
+<body>
+
+    <div id="alertContainer">
+        <div id="message">
+            <img id="alert" src="images\alert-dark.png" alt="alert">
+            <div id="alertText">
+                <p>This males use of third party cookies,by clicking "I accept" </p>
+                <p>you agree to the terms outlined in our <a href="">cookies policy</a>  </p>
+            </div>    
+                <button id="alertBt">I ACCEPT</button>
+        </div>
+    </div>
+
+    <div id="topNav">
+        <img id="leaf" src="images\leaf.png" alt="Leaf">
+        <h1 id="easyBay">EasyBay</h1>
+        <input id="mainSearchBar" type="Search" placeholder="Search for anything"/>
+        <img id="searchIcon" src="images\search-dark.png" alt="search">
+        <h3 id="signIn">Sign In</h3>
+        <img id="cart" onclick="handlesClick()" src="images\cart-dark.png" alt="Cart">
+    </div>
+
+    <div id="botNav">
+        <h3>Aeonium</h3>
+        <h3>Andormischus</h3>
+        <h3>Agave</h3>
+        <h3>Aloe</h3> 
+        <h3>Anacampseros</h3>
+        <h3>Aristaloe</h3>
+        <h3>More...</h3>
+    </div>
+
+    <h1 id="bannerTitle">Your Source For Serious Succulent Specialties</h1>
+
+    <div id="mainPageContainer">
+                    
+        <div id="leftColunm">
+
+            <div id="leftColunmLeftBox">
+                <h2 id="test">Discover Suc-</h2>
+                    <h2>culent Varieties one pot or rack at a time!</h2>
+
+                    <div id="discover">
+                        <h2>Discover</h2>
+                        <img id="discoverArrow" src="images\arrow-light.png" alt="">
+                    </div>
+
+            </div>
+            <img id="succulent"  onmouseover="changePic1()" src="images\succulents-1.jpg" onmouseout="changePic2()"   alt="">
+
+        </div>
+
+        <div id="rightColunm">
+            <img src="images\aloe-m.jpg" alt="">
+
+        <div id="rightColunmBotBox">
+                <h2>Soothing aloe</h2>
+                <img id="aloeArrow" src="images\arrow-light.png" alt="">
+        </div>
+
+        </div>
+                    
+    </div>
+
+
+    <div id="botContainer">
+
+        <div id="bottomColunm">
+            <div id="botPic">  
+                <div id="botColpic"></div>
+                <img id="Aeonium" src="images\aeonium-s.jpg" alt="Aeonium">
+                <img id="Aloe" src="images\aloe-s.jpg" alt="Aloe">
+                <img id="Cactus" src="images\cactus-s.jpg" alt="Cactus">
+                <img id="Echeveria" src="images\echeveria-s.jpg" alt="Echeveria">
+                <img id="Sedum" src="images\sedum-s.jpg" alt="Sedum">
+                <img id="Sempervivum" src="images\sempervivum-s.jpg" alt="Sempervivum">
+            </div>
+            
+            <div id="botColText">
+                <h2 id="aeoniumText">Aeonium</h2>
+                <h2 id="aloeText">Aloe</h2>
+                <h2 id="cactusText">Cactus</h2>
+                <h2 id="echeveriaText">Echeveria</h2>
+                <h2 id="sedumText">Sedum</h2>
+                <h2 id="sempervivumText">Sempervivum</h2>
+            </div>
+            
+        </div>
+    </div>
+
+
+        
+    </body>
+
+    <script src="./script.js"></script>
+</html>
